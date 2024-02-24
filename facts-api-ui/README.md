@@ -26,6 +26,8 @@ The application uses the following Javascript libraries:
 
 ## Installation
 
+   > **Note:** If you already have the API running in the terminal, open another terminal and skip to **Step 2**.
+
 1. Clone the repository:
 
    ```bash

@@ -27,6 +27,8 @@ The application uses the following Python libraries:
 
 ## Installation
 
+   > **Note:** If you already have the web APP running in the terminal, open another terminal and skip to **Step 2**.
+
 1. Clone the repository:
 
    ```bash
