@@ -1,4 +1,5 @@
 import React from 'react';
+import shareIcon from '../assets/share.png'; 
 
 function ShareButton({ title, text }) {
   const handleShare = async () => {
@@ -18,7 +19,9 @@ function ShareButton({ title, text }) {
   };
 
   return (
-    <button onClick={handleShare}>Share</button>
+    <button id='share' onClick={handleShare}>
+      <img id="share" src={shareIcon} alt="share" />
+    </button>
   );
 }
 

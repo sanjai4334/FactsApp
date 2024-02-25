@@ -1,4 +1,5 @@
 import React from 'react';
+import CopyIcon from '../assets/copy.png'; 
 
 function CopyButton({ text }) {
   const handleCopy = () => {
@@ -8,7 +9,9 @@ function CopyButton({ text }) {
   };
 
   return (
-    <button onClick={handleCopy}>Copy</button>
+    <button id='copy' onClick={handleCopy}>
+      <img id='copy' src={CopyIcon} alt="copy" />
+    </button>
   );
 }
 
