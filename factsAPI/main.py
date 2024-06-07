@@ -11,7 +11,8 @@ class Stack:
     
     def push(self, item):
         self.stack.append(item)
-        
+        shuffle(self.stack)  # Shuffle contents when pushing
+    
     def pop(self):
         return self.stack.pop()
     
@@ -25,8 +26,6 @@ class Stack:
         and clears the other Stack."""
         self.stack = other.stack.copy()
         other.stack = []
-        
-        shuffle(self.stack) # Shuffle contents using random.shuffle()
 
 
 app = FastAPI()
@@ -42,40 +41,70 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Two stacks are used to ensure that the facts are not sent twice
-unsentFacts = Stack()
-sentFacts = Stack()
+unsentChemFacts = Stack()
+sentChemFacts = Stack()
+
+unsentItFacts = Stack()
+sentItFacts = Stack()
+
+unsentMechFacts = Stack()
+sentMechFacts = Stack()
+
+unsentElectricalFacts = Stack()
+sentElectricalFacts = Stack()
 
 PATH = os.path.dirname(__file__)
 
+# Read facts from file and remove the trailing newline character "\n"
+def load_facts(file_name, unsent_stack):
+    try:
+        with open(file_name, "r", encoding="utf-8") as f:
+            for fact in f.readlines():
+                unsent_stack.push(fact.strip("\n"))
+    except FileNotFoundError:
+        print(f"No {file_name} file found.")
+    except Exception as e:
+        print(f"An unknown error occurred while reading {file_name}: {e}")
 
-#  Read facts from file and remove the trailing newline character "\n"
-try:
-    with open(f"{PATH}/facts.txt", "r", encoding="utf-8") as f:
-        for fact in f.readlines():
-            unsentFacts.push(fact.strip("\n"))
-
-    # Shuffle facts in stack using random.shuffle()
-    shuffle(unsentFacts.stack)
-
-except FileNotFoundError:
-    print("No facts.txt file found.")
-except Exception as e:
-    print(f"An Unknown Error occured while reading facts.txt: {e}")
+load_facts(f"{PATH}/chem.txt", unsentChemFacts)
+load_facts(f"{PATH}/it.txt", unsentItFacts)
+load_facts(f"{PATH}/mech.txt", unsentMechFacts)
+load_facts(f"{PATH}/electrical.txt", unsentElectricalFacts)
 
 # Default page
 @app.get("/")
 async def root():
     return {"message": "Hello World"}
 
-# Main fact api endpoint
-@app.get("/get-fact")
-async def getFact():
-    if unsentFacts.isEmpty():
-        # If the unsent facts stack is empty, reload it with the sent facts stack
-        unsentFacts.reload(sentFacts)
-    
-    fact = unsentFacts.pop()
-    sentFacts.push(fact)
-    
+# Main fact api endpoints
+@app.get("/get-chem-fact")
+async def get_chem_fact():
+    if unsentChemFacts.isEmpty():
+        unsentChemFacts.reload(sentChemFacts)
+    fact = unsentChemFacts.pop()
+    sentChemFacts.push(fact)
+    return {"fact": fact}
+
+@app.get("/get-it-fact")
+async def get_it_fact():
+    if unsentItFacts.isEmpty():
+        unsentItFacts.reload(sentItFacts)
+    fact = unsentItFacts.pop()
+    sentItFacts.push(fact)
+    return {"fact": fact}
+
+@app.get("/get-mech-fact")
+async def get_mech_fact():
+    if unsentMechFacts.isEmpty():
+        unsentMechFacts.reload(sentMechFacts)
+    fact = unsentMechFacts.pop()
+    sentMechFacts.push(fact)
+    return {"fact": fact}
+
+@app.get("/get-electrical-fact")
+async def get_electrical_fact():
+    if unsentElectricalFacts.isEmpty():
+        unsentElectricalFacts.reload(sentElectricalFacts)
+    fact = unsentElectricalFacts.pop()
+    sentElectricalFacts.push(fact)
     return {"fact": fact}

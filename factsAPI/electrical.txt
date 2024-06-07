@@ -1,0 +1,100 @@
+Ohm's Law states that voltage (V) equals current (I) multiplied by resistance (R):V = I.R 
+The SI unit of resistance is the ohm (Ω).
+Electric current is the flow of electric charge.
+Direct current (DC) flows in one direction, while alternating current (AC) changes direction periodically.
+Nikola Tesla and Thomas Edison were key figures in the War of Currents, advocating for AC and DC power distribution, respectively.
+Kirchhoff's laws are fundamental in analyzing electrical circuits.
+A diode allows current to flow in one direction only.
+Transistors are semiconductor devices that amplify or switch electronic signals.
+Capacitors store electrical energy in an electric field.
+Inductors store energy in a magnetic field.
+Resistors limit the flow of electric current.
+Superconductors exhibit zero electrical resistance at certain temperatures.
+Semiconductors have conductivity between conductors and insulators.
+The first electrical battery, the voltaic pile, was invented by Alessandro Volta in 1800.
+Michael Faraday's laws of electromagnetic induction explain how a changing magnetic field induces an electromotive force (EMF).
+The transformer is a device that transfers electrical energy between two or more circuits through electromagnetic induction.
+The Edison Effect led to the development of vacuum tubes.
+The cathode-ray tube (CRT) was commonly used in older television and computer monitors.
+Silicon is a widely used semiconductor material in electronic devices.
+Integrated circuits (ICs) revolutionized electronics by combining multiple components on a single chip.
+Moore's Law predicts that the number of transistors on a microchip will double approximately every two years.
+The International System of Units (SI) defines the ampere (A) as the unit of electric current.
+The power factor is a measure of how effectively electrical power is converted into useful work output.
+Electrical engineers often use Fourier analysis to analyze and design circuits.
+Electric power is the rate at which electric energy is transferred or converted.
+The electric field is a fundamental concept in understanding the behavior of charged particles.
+Maxwell's equations describe the relationship between electric and magnetic fields.
+Insulators are materials that resist the flow of electric current.
+The speed of light is approximately 299,792 kilometers per second in a vacuum.
+Photovoltaic cells convert sunlight directly into electrical energy.
+Electric motors and generators are based on the principles of electromagnetic induction.
+Relay switches control high-voltage circuits with the help of low-voltage signals.
+Nikola Tesla pioneered the development of alternating current (AC) power systems.
+Gauss's law relates electric fields to the distribution of electric charge.
+A solenoid is a coil of wire used to generate a magnetic field when current flows through it.
+Thermocouples generate voltage based on temperature differences and are used in temperature measurement.
+A ground fault circuit interrupter (GFCI) protects against electric shock by quickly disconnecting the circuit when it detects a ground fault.
+The Shannon-Hartley theorem establishes the maximum data rate of a communication channel.
+Electrical engineers design and analyze electronic systems, power systems, and control systems.
+A breadboard is a prototyping tool used to construct electronic circuits without soldering.
+Power transmission lines use high voltage to reduce energy losses during long-distance transport.
+Instrumentation amplifiers are used to amplify small signals in the presence of noise.
+Electrical grid systems distribute power from generators to consumers.
+Pulse-width modulation (PWM) is a technique used to encode information in the width of pulse signals.
+The Hall effect is the production of a voltage difference across an electrical conductor when a magnetic field is applied perpendicular to the current flow.
+Zener diodes are used for voltage regulation in electronic circuits.
+Light-emitting diodes (LEDs) convert electrical energy into light.
+The Schottky diode has a lower forward voltage drop than conventional diodes.
+Boolean algebra is fundamental in digital circuit design.
+A flyback transformer is commonly used in the design of switching power supplies.
+A triac is a three-terminal semiconductor device used for controlling AC power.
+In an AC circuit, power is the product of voltage, current, and power factor.
+The piezoelectric effect generates an electrical charge in response to mechanical stress.
+Fiber optics use light signals for high-speed data transmission.
+The Nyquist-Shannon sampling theorem determines the minimum sampling rate for accurate signal reconstruction.
+A brushless DC motor operates without brushes and commutators.
+Electric discharge machining (EDM) uses electrical discharges to shape metal.
+An oscilloscope displays voltage variations over time.
+The Laplace transform is used to analyze linear time-invariant systems.
+PID controllers are widely used in control systems for maintaining desired setpoints.
+The Nernst equation relates the electrical potential of a cell to ion concentrations.
+Kirchhoff's current law states that the total current entering a junction equals the total current leaving the junction.
+Silicon-controlled rectifiers (SCRs) are used for power control in AC circuits.
+The skin effect causes higher-frequency currents to concentrate near the surface of a conductor.
+A Faraday cage protects against electromagnetic interference.
+The gyromagnetic ratio is a fundamental property in nuclear magnetic resonance (NMR) and magnetic resonance imaging (MRI).
+The thermoelectric effect converts a temperature difference between two dissimilar materials into an electric voltage.
+The Peltier effect is the reverse of the thermoelectric effect, causing a temperature difference when an electric current flows through a circuit.
+Maxwell's demon is a thought experiment related to the second law of thermodynamics.
+The H-bridge circuit is commonly used in motor control applications.
+The Wheatstone bridge is a circuit used to measure resistance.
+The Josephson effect describes the phenomenon of supercurrent across a junction of two superconductors.
+Gauss's law for magnetism states that there are no magnetic monopoles.
+The electric double layer is important in understanding the behavior of electrochemical cells.
+Magnetic resonance imaging (MRI) uses strong magnetic fields and radio waves to generate detailed images of the body.
+A snubber circuit is used to suppress voltage spikes in power electronics.
+Time-domain reflectometry (TDR) is a technique used to locate faults in transmission lines.
+A fuse is a protective device that melts when excessive current flows through it.
+The Carnot cycle sets the theoretical limit for the efficiency of heat engines.
+A synchronous motor operates at a constant speed determined by the frequency of the AC power supply.
+A brushless alternator eliminates the need for brushes and commutators in an alternator.
+The Curie temperature is the temperature at which a material loses its magnetic properties.
+The Nernst equation relates the standard electrode potential to the activities of reactants and products in an electrochemical cell.
+A selsyn is a type of rotary.
+Kirchhoff's voltage law states that the sum of the voltages in any closed loop of a circuit is equal to the sum of the electromotive forces (EMFs) in that loop.
+A varistor is a voltage-dependent resistor that protects electronic circuits from overvoltage conditions.
+The Maxwell-Wien bridge is a modification of the Wheatstone bridge used for measuring inductance and capacitance.
+Coulomb's Law describes the electrostatic force between two charged particles and is fundamental to understanding electric fields.
+Power factor correction improves the efficiency of electrical systems by minimizing reactive power.
+A photodetector converts light signals into electrical signals and is commonly used in optical communication.
+GTO (Gate Turn-Off) thyristors allow controlled turn-off, enabling efficient power control in high-voltage applications.
+A polyphase system involves multiple phases of alternating current, commonly used in three-phase power distribution.
+Nanogenerators harness small mechanical vibrations or movements to generate electrical energy on a nanoscale.
+The Kelvin-Varley voltage divider is a precision resistive voltage divider used for accurate voltage measurements.
+Magnetic levitation (Maglev) trains utilize electromagnetic forces for frictionless, high-speed transportation.
+The concept of electric potential energy is analogous to gravitational potential energy in mechanics.
+A Jacob's Ladder is a high-voltage demonstration that creates a continuous electrical arc climbing between two conductive electrodes.
+The Cascode amplifier configuration combines a common-emitter and common-base amplifier for improved performance.
+Planar transformers are flat transformers commonly used in electronic devices where space is limited.
+Tunneling is a phenomenon in which particles pass through a potential barrier that classically they should not be able to overcome, and it is essential in the operation of tunnel diodes and other quantum devices.

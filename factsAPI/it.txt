@@ -1,0 +1,100 @@
+Alan Turing is known as the father of theoretical computer science and artificial intelligence.
+The ENIAC, completed in 1945, was one of the earliest electronic general-purpose computers.
+There are thousands of programming languages, each with its own syntax and purpose.
+Python is among the most popular programming languages due to its simplicity and versatility.
+C programming language, developed by Dennis Ritchie in 1972, remains influential in the development of many other programming languages and operating systems.
+Tim Berners-Lee invented the World Wide Web in 1989, revolutionizing communication and information sharing worldwide.
+Moore's Law, predicted by Gordon Moore in 1965, states that the number of transistors on integrated circuits would double approximately every two years, leading to exponential growth in computing powArtificial Intelligence (AI) involves the development of computer systems capable of performing tasks that typically require human intelligence.
+Machine Learning is a subset of AI that involves training algorithms to learn from data and make predictions or decisions without being explicitly programme
+Deep Learning is a specialized form of machine learning inspired by the structure and function of the human brain's neural network
+Big Data refers to the massive volume of data generated daily, requiring specialized tools and techniques for storage, processing, and analysi
+Cloud Computing provides on-demand access to computing resources and services over the internet, without the need for on-site infrastructur
+Cybersecurity is the practice of protecting computer systems, networks, and data from theft, damage, or unauthorized acces
+The Internet of Things (IoT) refers to the network of interconnected devices and sensors that collect and exchange data, enabling automation and real-time monitoring in various domain
+Blockchain is a decentralized and distributed ledger technology used for secure and transparent transactions, originally developed for Bitcoi
+Quantum Computing leverages the principles of quantum mechanics to perform complex calculations at unprecedented speeds, promising breakthroughs in various field
+Operating Systems are software that manage computer hardware and provide a platform for running application
+Unix is a family of multitasking, multi-user operating systems developed in the 1970s, known for their stability and securit
+Open Source Software is freely available software that can be modified and redistributed by anyone, fostering innovation and collaboration within the software development communit
+Microsoft, founded by Bill Gates and Paul Allen in 1975, is one of the world's largest technology companies, known for its Windows operating system and Office productivity suit
+Apple Inc., founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in 1976, is known for its hardware products like the iPhone, iPad, and MacBook, as well as its macOS and iOS operating system
+Google, founded by Larry Page and Sergey Brin in 1998, is a multinational technology company specializing in internet-related services and products, including search, online advertising, and cloud computin
+Amazon Web Services (AWS) provides on-demand cloud computing platforms and APIs to individuals, companies, and government
+Computer Hardware refers to the physical components of a computer system, including the central processing unit (CPU), memory, storage devices, and input/output device
+The Central Processing Unit (CPU) is the primary component of a computer responsible for executing instructions and performing calculation
+Random Access Memory (RAM) is volatile memory used by a computer to store data and program instructions temporaril
+Hard Disk Drive (HDD) is a non-volatile storage device used for long-term data storage, consisting of rotating magnetic disks and read/write head
+Solid-State Drive (SSD) is a type of storage device that uses flash memory to store data, offering faster performance and greater durability than HDD
+Graphics Processing Unit (GPU) is a specialized electronic circuit designed to accelerate the rendering of images and videos in computer graphics application
+Motherboard is the main printed circuit board in a computer, containing the CPU, memory, and other essential component
+Binary System is the fundamental numbering system used by computers, based on two digits, 0 and 
+Bit is the smallest unit of data in a computer, representing a binary digit, either 0 or 
+Byte is a unit of digital information consisting of eight bits, commonly used to represent a single character of tex
+Kilobyte (KB) is approximately 1,000 bytes, commonly used to measure the size of computer files and storage capacit
+Megabyte (MB) is approximately 1,000 kilobytes or one million byte
+Gigabyte (GB) is approximately 1,000 megabytes or one billion byte
+Terabyte (TB) is approximately 1,000 gigabytes or one trillion byte
+Petabyte (PB) is approximately 1,000 terabytes or one quadrillion byte
+Exabyte (EB) is approximately 1,000 petabytes or one quintillion byte
+Algorithm is a step-by-step procedure for solving a problem or accomplishing a task, often implemented as a sequence of instructions in computer programmin
+Data Structure is a way of organizing and storing data in a computer to facilitate efficient access and modificatio
+Binary Search Tree is a data structure that allows for efficient searching, insertion, and deletion of elements, based on the binary search algorith
+Linked List is a data structure consisting of a sequence of elements, where each element points to the next element in the sequenc
+Array is a data structure consisting of a collection of elements, each identified by at least one array index or ke
+Queue is a data structure that follows the First-In-First-Out (FIFO) principle, where elements are inserted at the end and removed from the fron
+Stack is a data structure that follows the Last-In-First-Out (LIFO) principle, where elements are inserted and removed from the same en
+Recursion is a programming technique where a function calls itself in order to solve a problem or accomplish a tas
+Software Development Life Cycle (SDLC) is the process of planning, creating, testing, and deploying software applications, typically consisting of phases such as requirements analysis, design, implementation, testing, and maintenanc
+Agile Development is an iterative approach to software development that emphasizes flexibility, collaboration, and customer feedback throughout the development proces
+Waterfall Model is a traditional sequential approach to software development, where each phase must be completed before moving on to the next phas
+Object-Oriented Programming (OOP) is a programming paradigm based on the concept of "objects," which can contain data and code to manipulate that dat
+Class is a blueprint for creating objects in OOP, defining the properties and behaviors that all objects of that class will hav
+Inheritance is a feature of OOP that allows a class to inherit properties and behaviors from another class, enabling code reuse and hierarchical organizatio
+Encapsulation is the bundling of data and methods that operate on that data into a single unit, known as a class, in OO
+Polymorphism is a feature of OOP that allows objects of different classes to be treated as objects of a common superclass, enabling dynamic method dispatch and method overridin
+Database Management System (DBMS) is software that enables users to create, manage, and access databases, facilitating data storage trieval, and manipulatio
+Structured Query Language (SQL) is a domain-specific language used for managing and manipulating relational database
+MySQL is an open-source relational database management system based on SQL, widely used for web development and other application
+PostgreSQL is an open-source object-relational database system known for its reliability, robustness, and support for advanced feature
+NoSQL is a category of database management systems that diverge from the traditional relational database model, often used for handling large volumes of unstructured or semi-structured dat
+MongoDB is a popular NoSQL database system that uses a document-oriented data model, storing data in flexible, JSON-like document
+Redis is an open-source, in-memory data structure store used as a database, cache, and message broker, known for its high performance and versatilit
+Graph Database is a type of database that uses graph structures for data storage, enabling efficient querying and analysis of relationships between data entitie
+Computer Networking is the practice of connecting computers and other devices to share resources and information, typically using protocols like TCP/I
+Internet Protocol (IP) is the principal communications protocol in the Internet protocol suite, responsible for addressing and routing packets of data across network
+Transmission Control Protocol (TCP) is a core protocol of the Internet protocol suite, providing reliable, ordered, and error-checked delivery of data between network device
+HTTP is Hypertext Transfer Protocol, the foundation of data communication on the World Wide Web, used for transmitting web pages and other resource
+HTTPS is Hypertext Transfer Protocol Secure, an extension of HTTP with added security features, used for secure communication over the interne
+Domain Name System (DNS) is the system that translates domain names (e.g., example.com) into IP addresses (e.g., 192.0.2.1), enabling users to access websites using human-readable name
+Ethernet is a family of computer networking technologies commonly used in local area networks (LANs) and metropolitan area networks (MANs), known for its reliability and simplicit
+Wireless Networking is the use of wireless communication technologies to connect devices and transmit data without the need for physical cable
+Wi-Fi is a wireless networking technology that allows devices to connect to a local area network (LAN) wirelessly, based on the IEEE 802.11 standard
+Bluetooth is a wireless technology standard for exchanging data over short distances, commonly used for connecting peripherals like keyboards, mice, and headphones to computers and mobile device
+Embedded Systems are computing devices designed for specific functions within larger systems, typically with limited resources and operating in real-time environment
+Real-Time Operating System (RTOS) is an operating system designed to handle real-time processing requirements, providing predictable and deterministic behavior for time-sensitive application
+Firmware is software that is permanently stored in hardware devices, such as BIOS in computers or firmware in embedded system
+Compiler is a software tool that translates high-level programming languages into machine code or intermediate code, enabling the execution of programs on a compute
+Interpreter is a program that directly executes instructions written in a high-level programming language without the need for compilation, interpreting and executing code line by lin
+Integrated Development Environment (IDE) is a software application that provides comprehensive facilities for software development, typically including a code editor, compiler or interpreter, and debugge
+Version Control System (VCS) is software tools that enable developers to track and manage changes to source code over time, facilitating collaboration and code managemen
+Git is a distributed version control system used for tracking changes in source code during software development, known for its speed, scalability, and flexibilit
+GitHub is a web-based platform for hosting and collaborating on Git repositories, widely used by developers and organizations for open-source projects and private repositorie
+Bitbucket is a web-based platform similar to GitHub, offering Git repository hosting and collaboration features, particularly popular for integration with other Atlassian product
+Continuous Integration (CI) is a software development practice where code changes are automatically built, tested, and integrated into a shared repository multiple times a day, ensuring early detection of integration error
+Continuous Delivery (CD) is an extension of continuous integration where code changes are automatically prepared for deployment to production environments, ensuring rapid and reliable software release
+DevOps is a set of practices that combines software development (Dev) and information technology operations (Ops), aiming to shorten the systems development life cycle and provide continuous delivery of high-quality softwar
+Microservices is a software architecture pattern where complex applications are composed of small, independent services that communicate through well-defined APIs, enabling flexibility, scalability, and maintainabilit
+Containerization is a lightweight form of virtualization where applications and their dependencies are packaged together in containers, providing consistent runtime environments across different computing environment
+Docker is a popular platform for containerization, allowing developers to package, distribute, and run applications and their dependencies in isolated container
+Kubernetes is an open-source container orchestration platform for automating deployment, scaling, and management of containerized applications, particularly useful for managing large, distributed system
+Serverless Computing is a cloud computing model where cloud providers dynamically manage the allocation of machine resources, allowing developers to focus on writing code without worrying about infrastructure managemen
+Artificial Neural Networks (ANNs) are computational models inspired by the structure and function of biological neural networks, used in machine learning and deep learning algorithm
+Recurrent Neural Networks (RNNs) are a type of artificial neural network designed for processing sequences of data, enabling tasks such as natural language processing and time series predictio
+Convolutional Neural Networks (CNNs) are a type of artificial neural network designed for processing grid-structured data, commonly used in image recognition and computer vision task
+Generative Adversarial Networks (GANs) are a class of machine learning models that consist of two neural networks, the generator and the discriminator, trained together to generate realistic synthetic dat
+Natural Language Processing (NLP) is a field of artificial intelligence that focuses on enabling computers to understand, interpret, and generate human languag
+Chatbots are software programs designed to simulate conversation with human users, often used for customer service, information retrieval, and task automatio
+Virtual Reality (VR) is a computer-generated simulation of a three-dimensional environment that users can interact with and explore using specialized hardware, such as VR headset
+Augmented Reality (AR) is a technology that overlays digital information or virtual objects onto the real world, typically viewed through a smartphone camera or AR glasse
+Quantum Computing is a revolutionary field that leverages the principles of quantum mechanics to perform complex calculations at unprecedented speeds, promising breakthroughs in various fields.
+The first known computer bug was literally a bug—a moth found inside Harvard University's Mark II computer in 1947. This incident led to the coining of the term "bug" to describe computer glitches.

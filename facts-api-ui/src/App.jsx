@@ -1,5 +1,5 @@
-import { Component } from 'react'
-import './App.css'
+import { Component } from 'react';
+import './App.css';
 import ShareButton from './Components/ShareButton';
 import CopyButton from './Components/CopyButton';
 
@@ -8,15 +8,18 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      activeCard: 2,
+      activeCard: 0,
+      dpmt: ["it", "chem", "mech", "electrical"],
+      currentDpmt: 0,
       cards: [],
       facts: [],
     };
   }
 
   getFact = async () => {
+    let dpmt = this.state.dpmt[this.state.currentDpmt];
     try {
-      const response = await fetch("http://127.0.0.1:8000/get-fact");
+      const response = await fetch(`http://127.0.0.1:8000/get-${dpmt}-fact`);
       const jsonData = await response.json();
 
       this.setState(
@@ -83,22 +86,71 @@ class App extends Component {
     }
   };
 
+  goToPage = (pageNumber) => {
+    this.setState({ activeCard: pageNumber - 1 }, this.loadShow);
+  };
+  
+  changeDpmt = (index) => {
+    this.setState({ 
+      currentDpmt: index, 
+      facts: [],
+      activeCard: 0 // Reset the activeCard to 2
+    }, () => {
+      this.getFact();
+      this.getFact();
+      this.getFact();
+      this.getFact();
+      this.getFact();
+    });
+  };
+
   render() {
+    const { activeCard, dpmt, currentDpmt } = this.state;
+    let dpmtTabs = dpmt.map((dept, index) => (
+      <button
+        key={index}
+        className={index === currentDpmt ? "active" : "inactive"}
+        onClick={() => this.changeDpmt(index)}
+      >
+        {dept.toUpperCase()}
+      </button>
+    ));
+
+    let activeCardIndex = activeCard + 1;
+
     return (
       <>
-          <div className="slider">
-            {this.state.cards}
-
-              <button id="prev" onClick={() => this.handleClick("prev")}>
-                {"<"}
-              </button>
-              <button id="next" onClick={() => this.handleClick("next")}>
-                {">"}
-              </button>
-          </div>
+        <h1>𝓕𝓐𝓒𝓣𝓢 𝓐𝓟𝓟</h1>
+        <div className="tabs">{dpmtTabs}</div>
+        <div className="slider">
+          {this.state.cards}
+          <button id="prev" onClick={() => this.handleClick("prev")}>
+            {"<"}
+          </button>
+          <button id="next" onClick={() => this.handleClick("next")}>
+            {">"}
+          </button>
+        </div>
+        <div className="pg-number">
+          <button className='two-before' onClick={() => this.goToPage(activeCardIndex - 2)}>
+            {activeCardIndex > 2 ? activeCardIndex - 2 : ""}
+          </button>
+          <button className='one-before' onClick={() => this.goToPage(activeCardIndex - 1)}>
+            {activeCardIndex > 1 ? activeCardIndex - 1 : ""}
+          </button>
+          <button className="current" onClick={() => this.goToPage(activeCardIndex)}>
+            {activeCardIndex}
+          </button>
+          <button className='one-before' onClick={() => this.goToPage(activeCardIndex + 1)}>
+            {activeCardIndex + 1}
+          </button>
+          <button className='two-before' onClick={() => this.goToPage(activeCardIndex + 2)}>
+            {activeCardIndex + 2}
+          </button>
+        </div>
       </>
     );
   }
 }
 
-export default App
+export default App;
